@@ -12,7 +12,7 @@ function usingObjectValues(frutas) {
   let frutas={
     "manzanas golden": 25,
     "manzanas fuji": 20,
-    "pera conferencia": 17,
+    "pera conferencia": 18,
     "pera ercolina": 12,
    }
 

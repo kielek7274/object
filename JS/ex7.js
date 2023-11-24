@@ -6,17 +6,17 @@ let frutas1={
    }
 
 function getTotal(frutas1) {
-    let totalPerFruit = {};
+    let totalKg = {};
   
     for (const [fruit, kg] of Object.entries(frutas1)) {
       const fruitName = fruit.split(' ')[0]; 
-      totalPerFruit[fruitName] = (totalPerFruit[fruitName] || 0) + kg;
+      totalKg[fruitName] = (totalKg[fruitName] || 0) + kg;
     }
   
-    return totalPerFruit;
+    return totalKg;
   }
   
-  let totalPerFruit = getTotal(frutas1);
-  console.log("Total kilograms per fruit:", totalPerFruit);
+  let totalKg = getTotal(frutas1);
+  console.log("Total kilograms per fruit:", totalKg);
   
   
