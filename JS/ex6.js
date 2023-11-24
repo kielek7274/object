@@ -24,8 +24,8 @@ function usingObjectValues(frutas) {
   function usingForOf(frutas) {
     let total = 0;
   
-    for (const key of Object.values(frutas)) {
-      total += key;
+    for (const kg of Object.values(frutas)) {
+      total += kg;
     }
   
     return total;
