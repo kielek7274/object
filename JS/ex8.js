@@ -1,18 +1,19 @@
 let number = {
     current: 0,
+   
     add() {
       this.current++;
       return this;
-    },
+    },    
     subtract() {
       this.current--;
       return this;
-    },
-    showNumber: function() {
+    }, 
+    showResult: function() {
       console.log(this.current);
       return this;
     }
   };
 
 
-number.subtract().add().add().subtract().showNumber();
+number.subtract().add().add().add().subtract().showResult();
